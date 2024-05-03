@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Poppins:wght@900&display=swap');
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+.adventure{
+    color:#04f1e9;
+}
+.ATlogo{
+    height: 25px;
+    margin-right: 25px;
+}
+.wrapper{
+    margin-left: -4px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+#login-box {
+    padding: 5rem !important;
+
+}
+
+.background, .foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.background{
+    transform:translateZ(-10px)scale(2);
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-left: -800px;
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+    transform:translateZ(-5px)scale(1.5);
+}
+
+section{
+    background-color: white;
+}
+
+.img-card1{
+    height: 300px;
+    object-fit: cover;
+    transition: 0.50s ease-in-out;
+}
+.img-card1:hover{
+    height: 350px;
+}
+
+
+.footer {
+    background: rgb(0, 0, 0);
+}
+
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box {
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: .7rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box p {
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+}
+
+.footer .credit span {
+    color: var(--blue);
+}
+
+
+.wrapper{
+    animation: transitionIn 0.75s;
+}
+
+.beach{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.resort{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.mountain{
+    margin-top: -50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #45551B;
+}
+.beach-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+

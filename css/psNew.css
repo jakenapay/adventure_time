@@ -1,0 +1,18 @@
+.footer .box-container .box h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0;
+}
+
+.footer .box-container .box a {
+    text-transform: capitalize;
+}
+
+
+.footer .box-container .box a:hover {
+    color: aqua;
+
+}
+
+

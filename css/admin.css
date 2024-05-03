@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    top: 50%;
+}
+
+.row{
+    border: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px;
+}
+
+.parent-login-page{
+    display: inline-block;
+}
+
+.login-page{
+    text-align: center;
+}
+
+.greeting-h1{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.admin-username{
+    margin-bottom: 30px;
+}
+
+.admin-password{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    margin-bottom: 30px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

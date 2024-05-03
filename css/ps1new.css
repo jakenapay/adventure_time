@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+h1.heading {
+    font-family: "DM Sans", serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
+section.packages {
+    margin-top: 200px;
+}
+
+#description {
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+img.img-fluid.card-img-top {
+    height: 300px !important;
+}
+
+footer .col-4 p {
+    font-weight: 200;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+
+.footer {
+    background: rgb(0, 0, 0);
+    padding: 2rem;
+}
+
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box {
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box p {
+    font-size: 0.9rem;
+    padding: .7rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1rem;
+    padding: .7rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a:hover {
+    color: #00fff2;
+    text-decoration: underline;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+}
+
+.footer .credit span {
+    color: var(--blue);
+}
